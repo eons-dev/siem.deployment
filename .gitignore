@@ -1,0 +1,6 @@
+#build
+build/**/
+!/build/config/
+
+#intellij
+/.idea/
