@@ -1,0 +1,19 @@
+build_in: tmp
+clear_build_path: true
+name: siem
+type: deployment
+next:
+- build: proxy
+	build_in: local
+	config:
+		clear_build_path: false
+		proxy: ../config/local.yaml
+	run_when_none:
+	- github
+- build: proxy
+	build_in: github
+	config:
+		clear_build_path: false
+		proxy: ../config/github.yaml
+	run_when_any:
+	- github

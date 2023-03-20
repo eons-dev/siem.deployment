@@ -1,0 +1,20 @@
+name: siem
+type: deployment
+next:
+- build: deployment
+	build_in: deployment
+	copy:
+	- /src: src
+	config:
+        dependencies:
+        - mysql
+        - kibana
+		next:
+		- build: publish
+			build_in: out
+			run_when_any:
+			- release
+			config:
+				clear_build_path: false
+				visibility: public
+	
