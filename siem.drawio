@@ -1,0 +1,308 @@
+<mxfile host="65bd71144e">
+    <diagram id="RnGx_1MqtxKIJfERi9v0" name="Page-1">
+        <mxGraphModel dx="1486" dy="816" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="30" value="Kubernetes" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="55" y="244" width="626" height="729" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="tinc&lt;br&gt;10.4.0.0/16" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" parent="1" vertex="1">
+                    <mxGeometry x="710" y="40" width="120" height="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Syslog" style="edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="10" target="14">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="353" y="212"/>
+                            <mxPoint x="353" y="212"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=classic;startFill=1;" parent="1" source="28" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="577" y="580"/>
+                            <mxPoint x="577" y="229"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" value="Traefik Service&lt;br&gt;10.4.4.1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="725" y="135" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="0.KF Service&lt;br&gt;10.4.4.2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="725" y="200" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="DEV" style="ellipse;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
+                    <mxGeometry x="963" y="47.5" width="62" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="Decision" style="ellipse;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+                    <mxGeometry x="1048" y="47.5" width="62" height="39" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="" style="group" connectable="0" vertex="1" parent="1">
+                    <mxGeometry x="-42" y="-210" width="220" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Servers" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" parent="63" vertex="1">
+                    <mxGeometry width="220" height="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="e0702 (Entrypoint)" style="rounded=1;whiteSpace=wrap;html=1;" parent="63" vertex="1">
+                    <mxGeometry x="20" y="230" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="e0503" style="rounded=1;whiteSpace=wrap;html=1;" parent="63" vertex="1">
+                    <mxGeometry x="20" y="70" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="e0704 (Entrypoint)" style="rounded=1;whiteSpace=wrap;html=1;" parent="63" vertex="1">
+                    <mxGeometry x="20" y="270" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="dragon.seon.home.eons.host" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="63" vertex="1">
+                    <mxGeometry x="20" y="150" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="sunfish.seon.home.eons.host" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="63" vertex="1">
+                    <mxGeometry x="20" y="190" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="1.is.worker.k8s.eons.host" style="rounded=1;whiteSpace=wrap;html=1;" parent="63" vertex="1">
+                    <mxGeometry x="20" y="32" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="e0302 (Master)" style="rounded=1;whiteSpace=wrap;html=1;" parent="63" vertex="1">
+                    <mxGeometry x="20" y="110" width="180" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="Customer Namespace" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="291" y="313" width="237" height="119" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="" style="group" connectable="0" vertex="1" parent="1">
+                    <mxGeometry x="419" y="354" width="67" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="66" value="Wordpress" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="65">
+                    <mxGeometry width="67" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="67" value="WP Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="65">
+                    <mxGeometry y="22" width="67" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="68" value="" style="group" connectable="0" vertex="1" parent="1">
+                    <mxGeometry x="316" y="354" width="67" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="69" value="Mysql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="68">
+                    <mxGeometry width="67" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="70" value="DB Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="68">
+                    <mxGeometry y="22" width="67" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="71" style="edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="66" target="70">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="72" style="edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="67" target="13">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="536" y="381"/>
+                            <mxPoint x="536" y="155"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="73" style="edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;html=1;startArrow=classic;startFill=1;" edge="1" parent="1" source="66" target="28">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="553" y="370"/>
+                            <mxPoint x="553" y="559"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="74" value="Customer Namespace" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="84" y="311" width="71" height="119" as="geometry"/>
+                </mxCell>
+                <mxCell id="75" value="Customer Namespace" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="187" y="311" width="71" height="119" as="geometry"/>
+                </mxCell>
+                <mxCell id="77" value="" style="group" connectable="0" vertex="1" parent="1">
+                    <mxGeometry x="84" y="446" width="450" height="228" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="SIEM Namespace 0" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;shadow=0;" parent="77" vertex="1">
+                    <mxGeometry width="450" height="228" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="" style="group" parent="77" vertex="1" connectable="0">
+                    <mxGeometry x="366" y="41.45454545454545" width="60" height="152.34545454545454" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="0.KF&lt;br&gt;Service&lt;br&gt;9092" style="rounded=0;whiteSpace=wrap;html=1;" parent="43" vertex="1">
+                    <mxGeometry y="49.74545454545455" width="60" height="102.6" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="Kafka" style="rounded=0;whiteSpace=wrap;html=1;" parent="43" vertex="1">
+                    <mxGeometry width="60" height="49.74545454545455" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=classic;startFill=1;" parent="77" source="42" target="32" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="341" y="81"/>
+                            <mxPoint x="341" y="195"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=orthogonalEdgeStyle;html=1;" parent="77" source="42" target="38" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="335" y="60.10909090909091"/>
+                            <mxPoint x="335" y="89.12727272727273"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="" style="group" parent="77" vertex="1" connectable="0">
+                    <mxGeometry x="253" y="53.89090909090909" width="67" height="46.63636363636364" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Logstash" style="rounded=0;whiteSpace=wrap;html=1;" parent="39" vertex="1">
+                    <mxGeometry width="67" height="22.8" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="" style="group" parent="77" vertex="1" connectable="0">
+                    <mxGeometry x="130" y="53.89090909090909" width="94" height="94" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Elasticsearch" style="rounded=0;whiteSpace=wrap;html=1;" parent="44" vertex="1">
+                    <mxGeometry width="94" height="22.8" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="&lt;div&gt;ES Service&lt;/div&gt;&lt;div&gt;9200&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="44" vertex="1">
+                    <mxGeometry y="22.8" width="94" height="71.2" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="" style="group" parent="77" vertex="1" connectable="0">
+                    <mxGeometry x="25" y="51.81818181818182" width="67" height="97" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="Kibana" style="rounded=0;whiteSpace=wrap;html=1;" parent="46" vertex="1">
+                    <mxGeometry width="67" height="22.8" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="&lt;div&gt;KB Service&lt;/div&gt;&lt;div&gt;5601&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="46" vertex="1">
+                    <mxGeometry y="22.8" width="67" height="74.2" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="LS Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="77" vertex="1">
+                    <mxGeometry x="253" y="76.69" width="67" height="104.31" as="geometry"/>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="77" source="37" target="40">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="109" y="63.21818181818182"/>
+                            <mxPoint x="109" y="89.12727272727273"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="77" source="36" target="38">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="" style="group" parent="77" vertex="1" connectable="0">
+                    <mxGeometry x="73" y="155.0009090909091" width="67" height="61" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="Mysql" style="rounded=0;whiteSpace=wrap;html=1;" parent="33" vertex="1">
+                    <mxGeometry width="67" height="23.836363636363636" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="DB Service&lt;br&gt;3306" style="rounded=0;whiteSpace=wrap;html=1;" parent="33" vertex="1">
+                    <mxGeometry y="23.84" width="67" height="37.16" as="geometry"/>
+                </mxCell>
+                <mxCell id="78" value="" style="group" connectable="0" vertex="1" parent="1">
+                    <mxGeometry x="80" y="700" width="450" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="79" value="SIEM Namespace 1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;shadow=0;" vertex="1" parent="78">
+                    <mxGeometry width="450" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="80" value="" style="group" connectable="0" vertex="1" parent="78">
+                    <mxGeometry x="249" y="129" width="67" height="46" as="geometry"/>
+                </mxCell>
+                <mxCell id="81" value="Mysql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="80">
+                    <mxGeometry width="67" height="23" as="geometry"/>
+                </mxCell>
+                <mxCell id="82" value="DB Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="80">
+                    <mxGeometry y="23" width="67" height="23" as="geometry"/>
+                </mxCell>
+                <mxCell id="83" value="" style="group" connectable="0" vertex="1" parent="78">
+                    <mxGeometry x="248" y="34" width="67" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="84" value="Logstash" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="83">
+                    <mxGeometry width="67" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="85" value="" style="group" connectable="0" vertex="1" parent="78">
+                    <mxGeometry x="366" y="40" width="60" height="147" as="geometry"/>
+                </mxCell>
+                <mxCell id="86" value="1.KF&lt;br&gt;Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="85">
+                    <mxGeometry y="48" width="60" height="99" as="geometry"/>
+                </mxCell>
+                <mxCell id="87" value="Kafka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="85">
+                    <mxGeometry width="60" height="48" as="geometry"/>
+                </mxCell>
+                <mxCell id="88" value="" style="group" connectable="0" vertex="1" parent="78">
+                    <mxGeometry x="125" y="34" width="94" height="45" as="geometry"/>
+                </mxCell>
+                <mxCell id="89" value="Elasticsearch" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="88">
+                    <mxGeometry width="94" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="90" value="ES Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="88">
+                    <mxGeometry y="22" width="94" height="23" as="geometry"/>
+                </mxCell>
+                <mxCell id="91" value="" style="group" connectable="0" vertex="1" parent="78">
+                    <mxGeometry x="20" y="32" width="67" height="44" as="geometry"/>
+                </mxCell>
+                <mxCell id="92" value="Kibana" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="91">
+                    <mxGeometry width="67" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="93" value="KB Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="91">
+                    <mxGeometry y="22" width="67" height="22" as="geometry"/>
+                </mxCell>
+                <mxCell id="94" value="LS Service" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="78">
+                    <mxGeometry x="248" y="56" width="67" height="23" as="geometry"/>
+                </mxCell>
+                <mxCell id="95" style="edgeStyle=orthogonalEdgeStyle;html=1;startArrow=classic;startFill=1;" edge="1" parent="78" source="87" target="82">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="341" y="78"/>
+                            <mxPoint x="341" y="165"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="96" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="78" source="87" target="94">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="341" y="58"/>
+                            <mxPoint x="341" y="58"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="97" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="78" source="92" target="90">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="104" y="43"/>
+                            <mxPoint x="104" y="68"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="98" style="edgeStyle=orthogonalEdgeStyle;html=1;" edge="1" parent="78" source="89" target="94">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="99" style="edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="42" target="86">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="607" y="489"/>
+                            <mxPoint x="607" y="838"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="100" style="edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="34" target="86">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="371" y="483"/>
+                            <mxPoint x="613" y="483"/>
+                            <mxPoint x="613" y="849"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="101" style="edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="36" target="86">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="261" y="479"/>
+                            <mxPoint x="618" y="479"/>
+                            <mxPoint x="618" y="860"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="102" value="" style="edgeStyle=orthogonalEdgeStyle;jumpStyle=arc;html=1;startArrow=none;startFill=0;" edge="1" parent="1" source="37" target="86">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="143" y="474"/>
+                            <mxPoint x="623" y="474"/>
+                            <mxPoint x="623" y="870"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
